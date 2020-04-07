@@ -1,0 +1,28 @@
+{
+  "name": "template-html",
+  "version": "0.1.0",
+  "description": "⬛ Template repository",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files *.css *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krzysztofzuraw/template-html.git"
+  },
+  "keywords": [
+    "template",
+    "repository",
+    "html",
+    "css"
+  ],
+  "author": "Krzysztof Żuraw https://krzysztofzuraw.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krzysztofzuraw/template-html/issues"
+  },
+  "homepage": "https://github.com/krzysztofzuraw/template-html#readme",
+  "devDependencies": {
+    "browser-sync": "2.26.7"
+  }
+}
