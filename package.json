@@ -4,7 +4,8 @@
   "description": "⬛ Template repository",
   "main": "index.js",
   "scripts": {
-    "start": "browser-sync start --server --files *.css *.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -14,7 +15,7 @@
     "template",
     "repository",
     "html",
-    "css"
+    "scss"
   ],
   "author": "Krzysztof Żuraw https://krzysztofzuraw.com",
   "license": "MIT",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/krzysztofzuraw/template-html#readme",
   "devDependencies": {
-    "browser-sync": "2.26.7"
+    "parcel-bundler": "1.12.4",
+    "sass": "1.26.3"
   }
 }
